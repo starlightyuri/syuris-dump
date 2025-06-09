@@ -183,6 +183,12 @@ int main(){
 }
 ```
 
-
+Contoh input/output (Expected):
+> array : {1, 3, 2, 1, 3, 4, 2, 1, 3, 4}
+> 
+> 1: 3x  
+> 2: 2x  
+> 3: 3x  
+> 4: 2x
 
 
