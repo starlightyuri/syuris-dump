@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar JavaScript Dasar</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    alert("Selamat datang di website saya!");
+    function cekumur(u){
+        if (u >= 18 && u < 150) {
+        return "Anda sudah dewasa";
+      } 
+      else if(u >= 150){
+        return "Anda immortal";
+      }
+      else if(u < 0){
+        return "Anda belum lahir";
+      }
+      else {
+        return "Anda masih kecil";
+      }
+    }
+    function sapaSaya() {
+        let nama = document.getElementById("nama").value;
+        let umur = document.getElementById("umur").value;
+
+      alert("Halo " + nama + ", " + cekumur(umur));
+    }
+  </script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Cek Grup Umur Anda</h1>
+    </div>
+    <div class="card">
+        <img src="gato.gif" alt=""><br>
+        <label for="nama">Masukkan nama:</label>
+        <input type="text" name="nama" id="nama"><br>
+        <label for="umur">Masukkan umur:</label>
+        <input type="number" name="umur" id="umur"><br>
+        <button onclick="sapaSaya()">Cek Sekarang</button>
+  </div>
+</body>
+</html>

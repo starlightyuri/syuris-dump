@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data Diri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Data Kamu</h2>
+
+        <div id="data-output">
+            <p><strong>Nama Lengkap:</strong> <span id="outNamaLengkap">-</span></p>
+            <p><strong>Nama Panggilan:</strong> <span id="outNamaPanggilan">-</span></p>
+            <p>
+                <strong>Usia:</strong> 
+                <span id="outUsia">-</span>
+                <button id="btnCekUmur" class="btn-small">Cek Umur</button>
+            </p>
+        </div>
+
+        <h2>Isi Formulir</h2>
+
+        <div id="form-box">
+            <label>Nama Lengkap:</label>
+            <input type="text" id="namaLengkap">
+
+            <label>Nama Panggilan:</label>
+            <input type="text" id="namaPanggilan">
+
+            <label>Usia:</label>
+            <input type="number" id="usia">
+
+            <button id="btnKirim">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

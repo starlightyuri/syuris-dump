@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  label{
+    margin: 10px;
+    margin-left: 2px;
+  }
+  text-input{
+    margin: 5px;
+  }
+}
+
+#header {
+  background-color: rgb(13, 43, 77);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

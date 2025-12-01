@@ -1,0 +1,54 @@
+
+/* === UNIVERSAL SELECTOR === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Tag Selector */
+p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === CLASS SELECTOR === */
+.card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Tambahan untuk gambar agar rapi */
+.foto {
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #888;
+  margin-bottom: 10px;
+}
+
+/* === ID SELECTOR === */
+#header {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* === GROUP SELECTOR === */
+h1, h2 {
+  color: black;
+}
